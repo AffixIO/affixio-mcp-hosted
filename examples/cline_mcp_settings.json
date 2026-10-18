@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "affixio": {
+      "type": "streamableHttp",
+      "url": "https://www.affix-io.com/mcp/"
+    }
+  }
+}

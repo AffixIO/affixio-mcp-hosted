@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "affixio": {
+      "type": "http",
+      "url": "https://www.affix-io.com/mcp/"
+    }
+  }
+}

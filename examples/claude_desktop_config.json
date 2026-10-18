@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "affixio": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://www.affix-io.com/mcp/"]
+    }
+  }
+}
