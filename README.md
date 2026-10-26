@@ -4,7 +4,9 @@
 
 # AffixIO MCP (hosted)
 
-Zero-knowledge proofs with post-quantum attestations for AI agents, without exposing personal data.
+Verification, permission checks, attestations and Merkle audit evidence through an account-scoped OAuth connection.
+
+See the [focused tool install guide](hosted-guide.md) for proof consumption, scopes and result interpretation, and the [directory profile](directory-profile.md) for listing details.
 
 AffixIO is a **hosted, remote MCP server**. There is nothing to install or run locally: point your MCP client at the endpoint below and sign in with AffixIO Studio.
 
@@ -23,16 +25,14 @@ AffixIO is a **hosted, remote MCP server**. There is nothing to install or run l
 ## What AffixIO does
 
 - **Zero-knowledge proofs for AI agents.** Prove a yes or no fact (for example "over 18", "road legal", "within spending limit") without handing the underlying personal data to the agent or the model.
-- **ML-DSA-65 post-quantum attestations.** Every decision comes back signed with ML-DSA-65 (FIPS 204). The public key is available for offline verification.
+- **ML-DSA-65 attestations.** Supported attestation operations can sign verification evidence. Not every tool result is a signed attestation. Public verification keys support checking the corresponding signatures.
 - **Single-use proof IDs.** Proofs can be marked spent, so the same proof cannot be replayed.
 - **Agent trust.** Enrol an AI agent, verify its credential and check whether it may perform a specific action against a named resource before it acts.
 - **Auditable receipts.** Verification receipts are anchored in a Merkle audit tree with inclusion proofs.
 
-## Free proofs
+## Access and usage
 
-- AI agents: **150 free proofs**
-- Humans: **100 free proofs**
-- No card required
+Hosted access requires an account and an active account-owned API key selected during consent. API usage follows your current plan and limits; see [pricing](https://www.affix-io.com/pricing/). The hosted service processes submitted tool inputs remotely. Avoid submitting unnecessary personal data.
 
 ## Connect
 
